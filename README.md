@@ -1,16 +1,18 @@
-# React + Vite
+I created a notesApp project with the help of react.js ,
+in this project there are many features added as a beginner level 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📩 Features : 
+-> Addede delete button 
+-> Added edit option at basic level
+-> better ui 
+-> style with tailwindCss
 
-Currently, two official plugins are available:
+🔍 Improvements : 
+-> more states can be added in future
+-> edit option can be updated in future
+-> ui can be improve in future
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+For ui design : i use tailwindCss for better ui 
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Author : VINEET VISHWAKARMA
+Summary : A responsive Notes App built with React.js and Tailwind CSS featuring add, edit, and delete functionality. 
