@@ -1,7 +1,7 @@
 I created a notesApp project with the help of react.js ,
 in this project there are many features added as a beginner level 
 
-📩 Features : 
+📩 Features :
 -> Addede delete button 
 -> Added edit option at basic level
 -> better ui 
