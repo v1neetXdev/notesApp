@@ -11,21 +11,27 @@ const App = () => {
     e.preventDefault()
     const copyTask = [...task];
     copyTask.push({ title, details })
+    // agar obvject  ke form main store karna hain toh ye likhenge json.stringify
+    localStorage.setItem('copy' , JSON.stringify(copyTask))
+    // agar array ke form main store karna hain toh ye use karoge json.parse
+    console.log(JSON.parse(localStorage.getItem('copy')))
+    
     setTask(copyTask)
     setTitle('')
     setDetails('')
   }
+  // yaha per cheezein delete ho rahi hain 
   function cancel(idx) {
     const copyTask = [...task]
     copyTask.splice(idx , 1)
     setTask(copyTask)
     alert("Delete task")
   }
+  // yaha per cheezein edit kar skate hon 
   function edit(idx) {
   setTitle(task[idx].title);
   setDetails(task[idx].details);
   setEditIndex(idx);
-  
 }
   return (
     <div className='bg-black min-h-screen w-full mb-50 '>
